@@ -77,22 +77,28 @@
 	line-height: 40px;
 }
 
-#nv-smenu dl dt{
-    width:300px;
-    height:250px;
-    float:left;  
-    text-align:left;
-}
-#nv-smenu dl dd{
-	margin-top:-18px;
-	margin-left:45px;
-    float:left; 
-    width:310px;
-    line-height:35px;/*行间局*/
-    text-align:left;
-/*无效    word-spacing:500px;/*字间距*/
-    -webkit-column-count:3;/*谷歌-多列*/
-}
+.nv-smenu{
+	background: #fff;
+	position: absolute;
+	left: 0;
+	top: 47px;
+	width: 100%;
+	}
+
+.nv-smenu dl{
+      	width: 145px;
+      	float: left;
+      	text-align: center;
+      	}
+
+.nv-smenu dl dd{
+	line-height: 27px;
+	}
+
+.nv-smenu dl dd a:hover{
+	text-decoration: underline;
+	color: #464683;
+	}
 dl a {
 	text-decoration:none;/*去除下划线*/
 	color:#727483;

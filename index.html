@@ -12,6 +12,7 @@
 		<link href="css/bootstrap.css" rel="stylesheet">
 		<script src="js/jquery-3.1.1.min.js"></script>
 		<script src="js/bootstrap.js"></script>
+		<script src="js/lib.js"></script>
 	</head>
 
 	<body>
@@ -27,15 +28,16 @@
         <span class="icon-bar"></span>
       </button>	
       </div>
-		</header>		
+		</header>
+		
 		<!-- 导航条 -->
 		<section>
-		<nav class="navbar navbar-default  visible-lg">
+		<nav id="nv"class="navbar navbar-default  visible-lg">
   <div class="container">
 
 
     <!-- Collect the nav links, forms, and other content for toggling  小屏幕时候会变成菜单 -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1 apheader_topLinks_C ">
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1 ">
     	<ul>
             <li class="hover"><a href="#">网站首页</a></li>               
             <li><a href="#">中心概况</a></li>
@@ -47,36 +49,56 @@
         </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
-</nav>
 
-<div id="nv-smenu" style="  margin-top: 0px; margin-bottom: 0px; padding-top: 0px; padding-bottom: 0px;">
-                <div class="container-fluid">
-        <dl style="width:880px;height:220px;background: #0088CC;">
-        <dt style="height:200px;margin-left:32px;margin-top:36px;">
-            <image src="images/menu1.jpg" style="width:250px;height:160px;"></image>
-          </dt>
-          <h3 style="color:#c4020b;float:left;margin-top:8px;">    部分名师：</h3>
-          <dd style="width:500px;margin-left:-4px;-webkit-column-count:4;">
-            <a href="#">张屹系主任</a>
-            <a href="#">黄友谦教授</a>
-            <a href="#">侯广坤教授</a>
-            <a href="#">薛建民教授</a>
-            <a href="#">谭兆信教授</a>
-            <a href="#">姚恩建教授</a>
-            <a href="#">张远平教授</a>
-            <a href="#">李明雨教授</a>
-            <a href="#">邹立杰教授</a>
-            <a href="#">杨文贤教授</a>
-            <a href="#">黎绍发教授</a>
-            <a href="#">于文博士 </a>
-            <a href="#">吴泽翔教授</a>
-            <a href="#">陈宁穗讲师</a>
-            <a href="#">吴向荣讲师</a>
-            <a href="#">...  </a>
-          </dd>
-       </dl>
+
+<div class="nv-smenu container-fluid" style="display: none;">
+                <div class="container">
+                	
+                    <dl>
+                        <dd><img src="./媒体报道 - 大数据研究中心_files/logo2.png" alt=""></dd>
+                    </dl>
+                    <dl>
+                    	<dd><a href="#">中心介绍</a></dd>
+                    	<dd><a href="#">宗旨目标</a></dd>
+                    	<dd><a href="#">组织架构</a></dd>
+                    	<dd><a href="#">重要成果</a></dd>
+                    </dl>
+					<dl>
+                        <dd><a href="#">媒体报道</a></dd>
+                        <dd><a href="#">简报摘要</a></dd>
+                        <dd><a href="#">公告通知</a></dd>
+                    </dl>
+					<dl>
+                    	<dd><a href="#">研究成果</a></dd>
+                        <dd><a href="#">开放基金</a></dd>
+                        <dd><a href="#">学术资源</a></dd>
+                        <dd><a href="#">大数据竞赛</a></dd>
+                    </dl>
+					<dl>
+                        <dd><a href="#">两院院士</a></dd>
+                        <dd><a href="#">杰出人才</a></dd>
+                        <dd><a href="#">优秀人才</a></dd>
+                        <dd><a href="#">梯队人才</a></dd>
+                        <dd><a href="#">招纳贤士</a></dd>
+                    </dl>
+					<dl>
+                        <dd><a href="#">数据工程师认证</a></dd>
+                        <dd><a href="#">资格认证查询</a></dd>
+                        <dd><a href="#">EMBA培训</a></dd>
+                        <dd><a href="#">EDP培训</a></dd>
+                        <dd><a href="#">浩格英泰培训认证</a></dd>
+                    </dl>
+					<dl>
+                    	<dd><a href="#">安全大数据研究所</a></dd>
+                        <dd><a href="#">健康大数据研究中心</a></dd>
+                        <dd><a href="#">教育大数据研究所</a></dd>
+                        <dd><a href="#">移动大数据研究所</a></dd>
+                        <dd><a href="#">大数据挖掘与推理研究所</a></dd>
+                        <dd><a href="#">遥感大数据研究所</a></dd>
+                    </dl>
 				</div>
            </div>
+           </nav>
   		<!-- -->
 		</section>
 		</section>           		                      			
